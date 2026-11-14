@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Misión SISE · Llave 3 · Proyección Profesional</title>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800&family=Barlow:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--r:#ff0e49;--d:#241f21;--p:#fff1f5;--g:#f7f5f6;--line:#e9e2e5}
+*{box-sizing:border-box}
+body{margin:0;background:#eee9eb;color:var(--d);font:16px Barlow,Arial,sans-serif}
+.wrap{max-width:1050px;margin:24px auto;background:#fff;min-height:620px;overflow:hidden;border-radius:18px;box-shadow:0 12px 35px #241f2115}
+.top{background:var(--d);color:#fff;padding:16px 35px;display:flex;justify-content:space-between;align-items:center}
+.logo{font:800 32px 'Barlow Condensed',sans-serif;color:var(--r)}
+.top small{letter-spacing:2px;font-weight:700}
+.screen{display:none;padding:45px 6%;animation:fade .35s ease}
+.screen.active{display:block}
+@keyframes fade{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+.tag{font-weight:800;color:var(--r);text-transform:uppercase;letter-spacing:2px;font-size:13px}
+h1,h2,h3{font-family:'Barlow Condensed','Arial Narrow',sans-serif;line-height:1.06}
+h1{font-size:clamp(45px,7vw,78px);margin:15px 0}
+h2{font-size:clamp(32px,5vw,48px);margin:12px 0 18px}
+h3{font-size:26px;margin:0 0 10px}
+.lead{font-size:19px;line-height:1.55;max-width:690px}
+.hero{display:grid;grid-template-columns:1.3fr .7fr;gap:30px;align-items:center;min-height:430px}
+.key{font-size:112px;text-align:center;filter:drop-shadow(0 12px 12px #ff0e4933);transform:rotate(-18deg)}
+.keybox{background:var(--p);border-radius:30px;padding:40px 15px;text-align:center}
+.pill{display:inline-block;background:var(--d);color:#fff;border-radius:5px;padding:8px 15px;font-size:13px;font-weight:700;letter-spacing:1px}
+.accent{color:var(--r)}
+button,.btnlink{border:0;background:var(--r);color:#fff;font:700 18px 'Barlow Condensed',sans-serif;padding:14px 28px;border-radius:8px;cursor:pointer;text-decoration:none;display:inline-block}
+button:hover,.btnlink:hover{filter:brightness(.93)}
+button.secondary{background:var(--d)}
+.action{display:flex;gap:12px;align-items:center;margin-top:27px;flex-wrap:wrap}
+.notice{background:var(--p);border-left:5px solid var(--r);padding:15px 18px;border-radius:0 8px 8px 0;line-height:1.5}
+.cols{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+.panel{background:var(--g);padding:22px;border-radius:12px}
+.panel p{line-height:1.55;margin:0}
+.steps{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.step{border:1px solid var(--line);border-radius:10px;padding:13px 15px;line-height:1.4;background:#fff}
+.step b{color:var(--r)}
+.deliver{background:var(--d);color:#fff;padding:22px;border-radius:12px}
+.deliver ul{margin:10px 0 0;padding-left:20px;line-height:1.6}
+.footer{border-top:1px solid #eee;padding:14px 35px;display:flex;justify-content:space-between;font-size:13px;color:#777}
+.screen2{padding-top:28px}
+.screen2 .lead{font-size:16px;max-width:none}
+.screen2 h2{font-size:39px}
+.screen2 h3{font-size:23px}
+@media(max-width:680px){.wrap{margin:0;border-radius:0}.top{padding:14px 20px}.screen{padding:26px 20px}.hero,.cols,.steps{grid-template-columns:1fr}.hero{gap:10px}.keybox{padding:10px}.key{font-size:70px}.screen2 h2{font-size:33px}.footer{padding:14px 20px}}
+</style>
+</head>
+<body>
+<main class="wrap">
+<header class="top">
+  <div class="logo">SISE»</div>
+  <small>MISIÓN SISE</small>
+</header>
+
+<section class="screen active" id="s1">
+  <div class="hero">
+    <div>
+      <div class="tag">Evaluación Parcial · Tu tercera misión</div>
+      <h1>PREPÁRATE PARA OBTENER TU <span class="accent">TERCERA LLAVE</span></h1>
+      <span class="pill">LLAVE 03 · PROYECCIÓN PROFESIONAL</span>
+      <p class="lead">Tu perfil ya tiene una base. Ahora debes convertirlo en un CV profesional claro, auténtico y coherente con lo que sabes hacer y con el valor que quieres proyectar.</p>
+      <div class="notice">
+        <strong>Para conseguir tu tercera llave, debes completar la actividad:</strong><br>
+        EP – Diseño y redacción de mi CV profesional · 25 %.
+      </div>
+      <div class="action">
+        <button onclick="go(2)">CONOCE TU ACTIVIDAD »</button>
+      </div>
+    </div>
+    <div class="keybox">
+      <div class="key" aria-hidden="true">🗝️</div>
+      <h3>LLAVE 3</h3>
+      <div class="tag">PROYECCIÓN PROFESIONAL</div>
+      <p>Convierte tu propuesta de valor en un CV que puedas sustentar.</p>
+    </div>
+  </div>
+</section>
+
+<section class="screen screen2" id="s2">
+  <div class="tag">Llave 03 · Proyección Profesional · Evaluación Parcial</div>
+  <h2>Diseño y redacción de mi CV profesional</h2>
+
+  <div class="notice">
+    <strong>Tu desafío:</strong> construye tu CV profesional a partir de tus fortalezas, habilidades, FODA personal y propuesta de valor. Organiza tu información de manera clara, redacta experiencias y logros reales aplicando STAR cuando corresponda y utiliza herramientas digitales e IA de forma ética para mejorar la presentación y redacción, sin inventar información.
+  </div>
+
+  <div class="cols" style="margin-top:18px">
+    <div class="panel">
+      <h3>¿Qué aprenderás?</h3>
+      <p>Elaborarás un CV profesional que comunique de manera clara tu perfil, formación, habilidades y principales experiencias. Además, podrás redactar logros con información concreta y usar IA de forma responsable para mejorar la calidad de tu CV.</p>
+    </div>
+    <div class="panel">
+      <h3>¿Cómo lo harás?</h3>
+      <div class="steps">
+        <div class="step"><b>01.</b> Recupera tus fortalezas, FODA, propuesta de valor y aprendizajes previos.</div>
+        <div class="step"><b>02.</b> Define tu perfil profesional de forma breve y clara.</div>
+        <div class="step"><b>03.</b> Organiza datos, formación, experiencia, proyectos, habilidades y cursos.</div>
+        <div class="step"><b>04.</b> Si no tienes experiencia laboral, usa proyectos o experiencias académicas relevantes.</div>
+        <div class="step"><b>05.</b> Identifica experiencias y logros reales que puedas sustentar.</div>
+        <div class="step"><b>06.</b> Redacta logros aplicando STAR cuando corresponda.</div>
+        <div class="step"><b>07.</b> Verifica que tu CV sea coherente con tu propuesta de valor.</div>
+        <div class="step"><b>08.</b> Revisa claridad, orden, brevedad, ortografía y actualización.</div>
+        <div class="step"><b>09.</b> Usa IA de manera ética para mejorar redacción o presentación.</div>
+        <div class="step"><b>10.</b> Elabora la versión final y complétala en MyWorkin según las indicaciones.</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="cols" style="margin-top:18px">
+    <div class="deliver">
+      <h3>Tu producto a presentar</h3>
+      <ul>
+        <li>CV profesional con perfil profesional.</li>
+        <li>Formación académica.</li>
+        <li>Experiencias, actividades o proyectos relevantes.</li>
+        <li>Logros o experiencias redactados adecuadamente.</li>
+        <li>Habilidades y conocimientos relacionados con el perfil.</li>
+        <li>Organización clara y presentación profesional.</li>
+        <li>Coherencia con tu propuesta de valor.</li>
+        <li>Uso responsable y ético de herramientas de IA.</li>
+      </ul>
+    </div>
+    <div class="panel">
+      <h3>Antes de entregar</h3>
+      <p><strong>Pregúntate:</strong> ¿mi CV refleja realmente quién soy, qué sé hacer y qué puedo aportar? ¿Las fortalezas que identifiqué se evidencian en la información presentada? ¿Toda la información es verdadera y puedo sustentarla en una entrevista?</p>
+      <p style="margin-top:14px"><strong>Recuerda:</strong> la IA puede ayudarte a mejorar la claridad y redacción, pero no debe inventar experiencias, estudios, certificaciones, habilidades ni resultados.</p>
+    </div>
+  </div>
+
+  <div class="action">
+    <button class="secondary" onclick="go(1)">« VOLVER AL INICIO</button>
+    <span style="font-size:13px;color:#777">La entrega y calificación se realizan en la actividad correspondiente de Canvas.</span>
+  </div>
+</section>
+
+<footer class="footer">
+  <span>Instituto SISE – Grupo EducaD</span>
+  <span id="counter">PANTALLA 1 DE 2</span>
+</footer>
+</main>
+<script>
+function go(n){
+  document.querySelectorAll('.screen').forEach(x=>x.classList.remove('active'));
+  document.getElementById('s'+n).classList.add('active');
+  document.getElementById('counter').textContent='PANTALLA '+n+' DE 2';
+  window.scrollTo({top:0,behavior:'smooth'});
+}
+</script>
+</body>
+</html>
